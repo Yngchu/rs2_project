@@ -31,8 +31,8 @@ px = 305.586
 fy = 317.651
 py = 233.604
 k_matrix = [[fx, 0, px],
-			[0, fy, py],
-			[0, 0, 1]]
+	   [0, fy, py],
+	   [0, 0, 1]]
 inv_k = np.linalg.inv(k_matrix)
 ave_f = (fx + fy) * 0.5
 
